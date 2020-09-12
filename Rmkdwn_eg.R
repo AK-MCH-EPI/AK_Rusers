@@ -5,7 +5,8 @@
 #' output: github_document
 #' ---
 #'
-#' When we add the special characters and select our output style we can render markdowns to GitHub.  
+#' When we add the special characters and select our output style we can render markdowns to GitHub.
+#' #' to knit this we can select File > Knit Document or Cntl+Shift+K  
 #' For this example we will use the VADeaths dataset 
 #' dataset `VADeaths`. 
 print(VADeaths)
@@ -19,4 +20,3 @@ summary(VADeaths)
 #+ dotchart
 dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
 
-#' to knit this we can select File > Knit Document or Cntl+Shift+K

@@ -4,7 +4,8 @@ Jared Parrish
 September 11, 2020
 
 When we add the special characters and select our output style we can
-render markdowns to GitHub.  
+render markdowns to GitHub. \#’ to knit this we can select File \> Knit
+Document or Cntl+Shift+K  
 For this example we will use the VADeaths dataset dataset `VADeaths`.
 
 ``` r
@@ -40,5 +41,3 @@ dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
 ```
 
 ![](Rmkdwn_eg_files/figure-gfm/dotchart-1.png)<!-- -->
-
-to knit this we can select File \> Knit Document or Cntl+Shift+K
